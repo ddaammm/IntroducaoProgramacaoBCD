@@ -16,7 +16,7 @@ public class Uni5Exe24 {
             System.out.println("Peso total obtido: " + pesoGramas + " gramas");
 
             System.out.println("Deseja informar o peso de mais um peixe? (digite 's' para SIM ou 'n' para NÃO");
-            char opcao = tec.next();
+            char opcao = tec.next().charAt(0);
 
             switch (opcao) {
                 case 's': 
